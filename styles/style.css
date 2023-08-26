@@ -1,20 +1,11 @@
 /* место для вашего кода */
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-}
-
-.header {
-
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .app__layout {
-    flex-grow: 1;
-
-}
-
-.footer {
-
+  flex-grow: 1;
 }
