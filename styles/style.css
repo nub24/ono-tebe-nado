@@ -1,7 +1,2 @@
 /* место для вашего кода */
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-}
+@import url(./header.css);

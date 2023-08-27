@@ -1,0 +1,57 @@
+.header {
+  box-sizing: border-box;
+  padding: 92px 49px 96px 51px;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header__links-list {
+  color: #000;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style: inside;
+  list-style-type: circle;
+  display: flex;
+  gap: 13px;
+  margin: auto 0;
+  padding: 0;
+}
+
+.header__links-list-item {
+  margin: 0;
+  padding: 0;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__link_active {
+  text-decoration: underline;
+}
+
+.header__logo {
+}
+
+.header__logo-img {
+}
+
+.address {
+}
+
+.header__address {
+  text-align: right;
+}
